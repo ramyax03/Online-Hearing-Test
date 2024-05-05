@@ -1,0 +1,31 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.audiogram canvas {
+    width: 100%; /* Make the canvas fill its container */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #1b1a1a; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    background-color: #fff; /* Set background color */
+}
+
+.audiogram .interpretation {
+    font-family: Arial, sans-serif; /* Use Arial or sans-serif font */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Set text color */
+    line-height: 1.5; /* Set line height */
+}
+
+
+.interpretation {
+    margin-top: 20px;
+}
+body {
+    background-image: url('hearing_image.jpg');
+    background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
